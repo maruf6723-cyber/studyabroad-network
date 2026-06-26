@@ -34,9 +34,10 @@ export const renderer = jsxRenderer(({ children, title }) => {
               </div>
               <div class="flex items-center space-x-3">
                 <a href="/dashboard" class="hidden sm:inline-flex px-3 py-2 text-sm font-medium text-slate-600 hover:text-emerald-600">Dashboard</a>
-                <a href="/register" class="inline-flex items-center px-4 py-2 bg-emerald-600 text-white text-sm font-medium rounded-md hover:bg-emerald-700 transition-colors">
+                <a href="/auth/register" class="inline-flex items-center px-4 py-2 bg-emerald-600 text-white text-sm font-medium rounded-md hover:bg-emerald-700 transition-colors">
                   <i class="fas fa-rocket mr-2"></i>Get Started
                 </a>
+                <a href="/auth/login" class="hidden sm:inline-flex px-3 py-2 text-sm font-medium text-slate-600 hover:text-emerald-600">Log in</a>
               </div>
             </div>
           </div>
